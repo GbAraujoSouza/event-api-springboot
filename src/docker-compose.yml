@@ -1,0 +1,10 @@
+services:
+  database:
+    image: bitnami/postgresql:16
+    container_name: event-api-db_c
+    environment:
+      - POSTGRES_DB=local_db
+      - POSTGRES_USER=local_username
+      - POSTGRES_PASSWORD=local_password
+    ports:
+      - '5432:5432'
