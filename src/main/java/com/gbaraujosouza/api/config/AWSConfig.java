@@ -6,9 +6,6 @@ import org.springframework.context.annotation.Configuration;
 
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
-import software.amazon.awssdk.services.s3.model.Bucket;
-import software.amazon.awssdk.services.s3.model.ListBucketsResponse;
-import software.amazon.awssdk.services.s3.model.S3Exception;
 
 @Configuration
 public class AWSConfig {
